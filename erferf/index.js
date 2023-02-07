@@ -11,7 +11,7 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     player = button.textContent;
     computerTurn();
     playerText.textContent = `Игрок: ${player}`;
-    computerText.textContent = `Компьютер: ${computer}`;
+    computerText.textContent = `Компьюте: ${computer}`;
     resultText.textContent = checkWinner();
 }));
 
