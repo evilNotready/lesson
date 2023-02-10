@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+
+.imgBack {
+    background-image: url(bg.jpeg);
+
+    background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+}
+
+.header {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+    padding-top: 20px;
+    display: flex;
+
+}
+
+.navText1:hover {
+    color: rgb(46, 63, 63);
+    transition: color 0.5s linear;
+}
+
+.navText1 {
+    color: black;
+    font-size: 50px;
+    margin-left: 25px;
+}
+
+.navText {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    padding-left: 25px;
+    transition: color 0.5s linear;
+}
+
+.navText:hover {
+    color: rgb(46, 63, 63);
+}
+
+.navigation {
+    padding-left: 500px;
+}
+
+.headerDown {
+    position: relative;
+}
+
+.headerTitle {
+    font-family: 'Metal Mania', cursive;
+    font-size: 64px;
+    margin-left: 98px;
+    margin-top: 120px;
+}
+
+.title1 {
+    font-family: 'Metal Mania', cursive;
+    font-size: 16px;
+    margin-left: 98px;
+    margin-top: 1px;
+}
+
+.join {
+    font-size: 40px;
+    background-color: black;
+    padding: 9px 20px;
+    color: white;
+    margin-left: 100px;
+    border-radius: 8px;
+    position: relative;
+    top: 60px;
+}
+
+.imgTitle {
+    max-width: 400px;
+    float: right;
+    padding: 1px;
+    filter: drop-shadow(22px -8px 9px rgba(0, 0, 0, 0.25));
+    border-radius: 185px;
+    position: relative;
+    top: -300px;
+    /* width: 370px;
+    height: 441px;
+    left: 845px; */
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 96px;
+    gap: 10px;
+
+    position: absolute;
+    width: 1920px;
+    height: 669px;
+    left: 0px;
+    top: 997px;
+
+}
+
+.about {
+/* 
+    width: 145px;
+    height: 58px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+.textAbout {
+ background-color: blueviolet;
+}
